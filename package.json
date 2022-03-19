@@ -1,0 +1,29 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hub.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node hub.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NedalAlQaisi/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NedalAlQaisi/caps/issues"
+  },
+  "homepage": "https://github.com/NedalAlQaisi/caps#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^6.0.0",
+    "faker": "^6.6.6"
+  }
+}
